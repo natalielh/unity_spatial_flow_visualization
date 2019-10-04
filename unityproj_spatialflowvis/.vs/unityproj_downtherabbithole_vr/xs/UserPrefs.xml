@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{9F636487-1986-54E4-5E97-4A73603BB842}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Shaders/QuillShaderStencil.shader">
+    <Files>
+      <File FileName="Assets/Shaders/QuillShaderStencil.shader" Line="115" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
