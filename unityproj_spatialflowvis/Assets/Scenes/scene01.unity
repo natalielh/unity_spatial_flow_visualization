@@ -1710,6 +1710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveInc: 0.05
   rotInc: 5
+  scaleInc: 0.001
 --- !u!1 &266167591
 GameObject:
   m_ObjectHideFlags: 0
