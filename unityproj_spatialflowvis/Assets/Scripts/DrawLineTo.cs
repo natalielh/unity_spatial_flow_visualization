@@ -26,7 +26,7 @@ public class DrawLineTo : MonoBehaviour
 
         if (destination != null)
         {
-            lineRenderer.SetPosition(0, this.gameObject.transform.position);
+            lineRenderer.SetPosition(0, gameObject.transform.position);
             lineRenderer.SetPosition(1, destination.position);
 
 
