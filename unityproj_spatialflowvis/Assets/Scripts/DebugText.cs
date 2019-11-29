@@ -40,6 +40,7 @@ public class DebugText : MonoBehaviour
                 "PRESS F1 TO SHOW / HIDE THIS TEXT \n" +
                 "[SPATIAL FLOW VISUALIZATION]  \n" +
                 "[CREATED BY NATALIE LE HUENEN, contact@natalielehuenen.com]  \n" +
+                "LEARN MORE: [github.com/natalielh/unity_spatial_flow_visualization]  \n" +
                 "VERSION: [ALPHA-INTERNAL] \n" +
                 "APPLICATION RUNNING ON: [" + Application.platform + "] \n" +
                 "SCREEN RESOLUTION: [" + Screen.currentResolution + "] \n" +
