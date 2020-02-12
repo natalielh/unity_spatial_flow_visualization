@@ -26,7 +26,7 @@ public class DebugText : MonoBehaviour
 
         deltaTime += (Time.unscaledDeltaTime - deltaTime) * 0.1f;
 
-        if (Input.GetKeyDown(KeyCode.F1))
+        if (Input.GetKeyDown(KeyCode.F2))
         {
             screenText.enabled = !screenText.enabled;
         }
@@ -37,22 +37,23 @@ public class DebugText : MonoBehaviour
             float fps = 1.0f / deltaTime;
             screenText.text =
                 // \n puts 'enter' in the string
-                "PRESS F1 TO SHOW / HIDE THIS TEXT \n" +
+                "Press F2 to Show / Hide this text \n" +
                 "[SPATIAL FLOW VISUALIZATION]  \n" +
-                "[CREATED BY NATALIE LE HUENEN, contact@natalielehuenen.com]  \n" +
-                "LEARN MORE: [github.com/natalielh/unity_spatial_flow_visualization]  \n" +
-                "VERSION: [ALPHA-INTERNAL] \n" +
-                "APPLICATION RUNNING ON: [" + Application.platform + "] \n" +
-                "SCREEN RESOLUTION: [" + Screen.currentResolution + "] \n" +
+                "[CREATED BY NATALIE LE HUENEN, natalie.lehuenen@gmail.com]  \n" +
+                "Learn more: [github.com/natalielh/unity_spatial_flow_visualization]  \n" +
+                "\n" +
+                "Version: [0.1.1 Alpha] \n" +
+                "App running on: [" + Application.platform + "] \n" +
+                "Screen resolution: [" + Screen.currentResolution + "] \n" +
                 "FPS: [" + fps + "] \n" +
                 "\n" +
                 "[CONTROLS ARE AS FOLLOWS:] \n" +
-                "[Z] SHOW / HIDE X-PLANE \n" +
-                "[X] SHOW / HIDE Y-PLANE \n" +
-                "[C] SHOW / HIDE Z-PLANE \n" +
-                "[V] SHOW / HIDE POINT AXES \n" +
-                "[1] SHOW / HIDE DEMO 1 \n" +
-                "[2] SHOW / HIDE DEMO 2 \n"
+                "[Z] Show / Hide X-Plane \n" +
+                "[X] Show / Hide Y-Plane \n" +
+                "[C] Show / Hide Z-Plane \n" +
+                "[V] Show / Hide Point Axes \n" +
+                "[1] Show / Hide Demo 1 \n" +
+                "[2] Show / Hide Demo 2 \n"
 
             ;
 
