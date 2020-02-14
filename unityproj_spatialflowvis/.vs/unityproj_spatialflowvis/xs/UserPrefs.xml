@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{42EFCE08-F1EB-4A87-2733-EF4312F3CD52}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/VRTK/Examples/ExampleResources/SceneResources/[005 - Interactions] InteractableObjects/Scripts/ControllableReactor.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SpawnMover.cs" Line="1" Column="1" />
+      <File FileName="Assets/VRTK/Examples/ExampleResources/SceneResources/[005 - Interactions] InteractableObjects/Scripts/ControllableReactor.cs" Line="26" Column="36" />
+      <File FileName="Assets/ScaleObj.cs" Line="1" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
