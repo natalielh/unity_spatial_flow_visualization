@@ -271,6 +271,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 35d008010ed2b4759857f5ab08613904,
     type: 3}
   m_PrefabInternal: {fileID: 349313988}
+--- !u!114 &25230216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 25230215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8091c7b92af744218c7bb0bd66a80ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotation_speed: {x: 0, y: 2, z: 0}
 --- !u!114 &25230219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15641,7 +15653,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1157173874
 Transform:
   m_ObjectHideFlags: 0
