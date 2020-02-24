@@ -7,7 +7,7 @@ public class Duplicator : MonoBehaviour {
     public bool alwaysDupe = false;
     bool dupedYet = false;
 
-    public GameObject objToSpawn;
+    //public GameObject objToSpawn;
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +22,7 @@ public class Duplicator : MonoBehaviour {
     public void Duplicate() {
 
         if (!alwaysDupe && !dupedYet) {
-            Instantiate(objToSpawn, this.transform.position, Quaternion.identity);
+            Instantiate(this.gameObject, this.transform.position, Quaternion.identity);
             dupedYet = true;
         }
 
