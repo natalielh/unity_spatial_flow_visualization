@@ -13,6 +13,7 @@ public class DebugText : MonoBehaviour
     private float deltaTime = 0.0f;
 
     public Text screenText;
+    public String projVer = "invalid version";
 
     void Start()
     {
@@ -42,7 +43,7 @@ public class DebugText : MonoBehaviour
                 "[CREATED BY NATALIE LE HUENEN, natalie.lehuenen@gmail.com]  \n" +
                 "Learn more: [github.com/natalielh/unity_spatial_flow_visualization]  \n" +
                 "\n" +
-                "Version: [0.1.1 Alpha] \n" +
+                "Version: ["+ projVer +"] \n" +
                 "App running on: [" + Application.platform + "] \n" +
                 "Screen resolution: [" + Screen.currentResolution + "] \n" +
                 "FPS: [" + fps + "] \n" +
