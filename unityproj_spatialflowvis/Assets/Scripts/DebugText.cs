@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Photon.Pun;
+using Photon.Realtime;
 using UnityEngine;
 using UnityEngine.UI; //need to import UnityEngine.UI to control the text displayed on the GUI
+using Hashtable = ExitGames.Client.Photon.Hashtable;
+
 
 public class DebugText : MonoBehaviour
 {
@@ -39,14 +43,20 @@ public class DebugText : MonoBehaviour
             screenText.text =
                 // \n puts 'enter' in the string
                 "Press F2 to Show / Hide this text \n" +
-                "[SPATIAL FLOW VISUALIZATION]  \n" +
-                "[CREATED BY NATALIE LE HUENEN, natalie.lehuenen@gmail.com]  \n" +
+                "[SpatialFlow VR Demo]  \n" +
+                "[Created by Natalie Le Huenen, natalie.lehuenen@gmail.com]  \n" +
                 "Learn more: [github.com/natalielh/unity_spatial_flow_visualization]  \n" +
                 "\n" +
                 "Version: ["+ projVer +"] \n" +
                 "App running on: [" + Application.platform + "] \n" +
                 "Screen resolution: [" + Screen.currentResolution + "] \n" +
                 "FPS: [" + fps + "] \n" +
+                "\n" +
+                "Ping: [" + PhotonNetwork.GetPing() + "] \n" +
+                "Server Address: [" + PhotonNetwork.ServerAddress + "] \n" +
+                "Connected & Ready?: [" + PhotonNetwork.IsConnectedAndReady + "] \n" +
+                "Is Master Client?: [" + PhotonNetwork.IsMasterClient + "] \n" +
+                "Players in Room: [" + PhotonNetwork.CurrentRoom.PlayerCount + "] \n" +
                 "\n" +
                 "[CONTROLS ARE AS FOLLOWS:] \n" +
                 "[Z] Show / Hide X-Plane \n" +

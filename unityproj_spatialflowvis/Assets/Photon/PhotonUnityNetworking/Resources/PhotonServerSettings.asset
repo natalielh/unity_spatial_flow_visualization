@@ -33,5 +33,10 @@ MonoBehaviour:
   - DestroySpaceship
   - Fire
   - RespawnSpaceship
+  - NetPlayClipAtPoint
+  - ChangeColour
+  - NetFire
+  - SetPanoramaFromObject
+  - SpawnAvatar
   DisableAutoOpenWizard: 1
   ShowSettings: 1
