@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Duplicator : MonoBehaviour {
 
+    public bool dupeItself = true;
     public bool alwaysDupe = false;
     bool dupedYet = false;
 
-    //public GameObject objToSpawn;
+    public GameObject objToSpawn;
 
 	// Use this for initialization
 	void Start () {
@@ -22,7 +23,15 @@ public class Duplicator : MonoBehaviour {
     public void Duplicate() {
 
         if (!alwaysDupe && !dupedYet) {
-            Instantiate(this.gameObject, this.transform.position, Quaternion.identity);
+
+            if (!dupeItself)
+            {
+                Instantiate(objToSpawn, this.transform.position, Quaternion.identity);
+            }
+            else {
+                Instantiate(this.gameObject, this.transform.position, Quaternion.identity);
+            }
+
             dupedYet = true;
         }
 

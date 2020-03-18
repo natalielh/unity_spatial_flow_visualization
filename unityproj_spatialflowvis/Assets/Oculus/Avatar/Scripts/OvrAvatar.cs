@@ -97,7 +97,9 @@ public class OvrAvatar : MonoBehaviour
     private Dictionary<string, OvrAvatarComponent> trackedComponents =
         new Dictionary<string, OvrAvatarComponent>();
 
-    private UnityEvent AssetsDoneLoading = new UnityEvent();
+    //Unity complained about this being inaccessible due to protection level when loading VRTK example scene #017: 017_CameraRig_TouchpadWalking
+    //private UnityEvent AssetsDoneLoading = new UnityEvent();
+    public UnityEvent AssetsDoneLoading = new UnityEvent();
     bool assetsFinishedLoading = false;
 
     public Transform LeftHandCustomPose;
