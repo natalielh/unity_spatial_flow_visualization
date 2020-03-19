@@ -13,6 +13,7 @@ TagManager:
   - Torso
   - Head
   - Butterfly
+  - DomeCollider
   layers:
   - Default
   - TransparentFX
