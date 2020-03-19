@@ -18,7 +18,7 @@ public class SnapDropDistDisabler : MonoBehaviour {
 
         if (Time.time > nextActionTime) {
 
-            if (Vector3.Distance(transform.parent.position, transform.position) > distanceThreshold)
+            if (Vector3.Distance(transform.parent.parent.position, transform.position) > distanceThreshold)
             {
                 disableSnapDropZone();
             }
