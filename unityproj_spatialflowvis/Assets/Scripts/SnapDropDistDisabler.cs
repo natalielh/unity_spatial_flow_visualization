@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SnapDropDistDisabler : MonoBehaviour {
 
+    public Vector3 objLocationReference;
     public float distanceThreshold = 1.3f;
 
     private float nextActionTime = 0.0f;
@@ -18,7 +19,8 @@ public class SnapDropDistDisabler : MonoBehaviour {
 
         if (Time.time > nextActionTime) {
 
-            if (Vector3.Distance(transform.parent.parent.position, transform.position) > distanceThreshold)
+            if (Vector3.Distance(objLocationReference, transform.position) > distanceThreshold)
+            //if (Vector3.Distance(transform.parent.parent.position, transform.position) > distanceThreshold)
             {
                 disableSnapDropZone();
             }

@@ -427,4 +427,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f17361a7c634c4299f2cf0bd314b47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objLocationReference: {x: 3.071, y: 0.952, z: 0.383}
   distanceThreshold: 0.75
