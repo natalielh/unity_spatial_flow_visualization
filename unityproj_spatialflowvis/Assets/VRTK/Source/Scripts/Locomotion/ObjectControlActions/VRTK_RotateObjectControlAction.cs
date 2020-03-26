@@ -47,5 +47,16 @@ namespace VRTK
         {
             return axis * maximumRotationSpeed * Time.deltaTime * (modifierActive ? rotationMultiplier : 1) * 10;
         }
+
+
+        //testing https://github.com/ExtendRealityLtd/VRTK/issues/1913
+        public VRTK_BodyPhysics bodyPhysics;
+
+        protected override void OnEnable()
+        {
+            internalBodyPhysics = bodyPhysics;
+            base.OnEnable();
+        }
+        //
     }
 }

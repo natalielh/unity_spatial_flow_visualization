@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: f5a48e6402cff5441892205e3cbefc88
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Group101_Materi05
+    100004: Group109_Materi40.001
+    100006: Group156_Stone_Sa
+    100008: Group157_Stone_Ma.003
+    100010: Group41_Materi13
+    100012: Group72_Materi01.008
+    100014: Group8_Materi01.019
+    100016: Group93_Materi14.002
+    100018: Group94_Material
+    100020: islandbase
+    100022: Mesh08_FrontCol.011
+    100024: Mesh13_Materi10.001
+    100026: Mesh14_Materi12.001
+    100028: Mesh17__Charcoa
+    100030: Mesh31_Materi36
+    100032: Mesh33_Materi30.002
+    100034: Mesh37_Materi41.008
+    100036: Mesh37_Materi42.001
+    100038: Mesh43_Materi07.001
+    100040: Mesh44_Materi43.001
+    100042: Mesh44_Materi43.004
+    100044: parthenon
+    400000: //RootNode
+    400002: Group101_Materi05
+    400004: Group109_Materi40.001
+    400006: Group156_Stone_Sa
+    400008: Group157_Stone_Ma.003
+    400010: Group41_Materi13
+    400012: Group72_Materi01.008
+    400014: Group8_Materi01.019
+    400016: Group93_Materi14.002
+    400018: Group94_Material
+    400020: islandbase
+    400022: Mesh08_FrontCol.011
+    400024: Mesh13_Materi10.001
+    400026: Mesh14_Materi12.001
+    400028: Mesh17__Charcoa
+    400030: Mesh31_Materi36
+    400032: Mesh33_Materi30.002
+    400034: Mesh37_Materi41.008
+    400036: Mesh37_Materi42.001
+    400038: Mesh43_Materi07.001
+    400040: Mesh44_Materi43.001
+    400042: Mesh44_Materi43.004
+    400044: parthenon
+    2100000: No Name
+    2300000: Group101_Materi05
+    2300002: Group109_Materi40.001
+    2300004: Group156_Stone_Sa
+    2300006: Group157_Stone_Ma.003
+    2300008: Group41_Materi13
+    2300010: Group72_Materi01.008
+    2300012: Group8_Materi01.019
+    2300014: Group93_Materi14.002
+    2300016: Group94_Material
+    2300018: islandbase
+    2300020: Mesh08_FrontCol.011
+    2300022: Mesh13_Materi10.001
+    2300024: Mesh14_Materi12.001
+    2300026: Mesh17__Charcoa
+    2300028: Mesh31_Materi36
+    2300030: Mesh33_Materi30.002
+    2300032: Mesh37_Materi41.008
+    2300034: Mesh37_Materi42.001
+    2300036: Mesh43_Materi07.001
+    2300038: Mesh44_Materi43.001
+    2300040: Mesh44_Materi43.004
+    2300042: parthenon
+    3300000: Group101_Materi05
+    3300002: Group109_Materi40.001
+    3300004: Group156_Stone_Sa
+    3300006: Group157_Stone_Ma.003
+    3300008: Group41_Materi13
+    3300010: Group72_Materi01.008
+    3300012: Group8_Materi01.019
+    3300014: Group93_Materi14.002
+    3300016: Group94_Material
+    3300018: islandbase
+    3300020: Mesh08_FrontCol.011
+    3300022: Mesh13_Materi10.001
+    3300024: Mesh14_Materi12.001
+    3300026: Mesh17__Charcoa
+    3300028: Mesh31_Materi36
+    3300030: Mesh33_Materi30.002
+    3300032: Mesh37_Materi41.008
+    3300034: Mesh37_Materi42.001
+    3300036: Mesh43_Materi07.001
+    3300038: Mesh44_Materi43.001
+    3300040: Mesh44_Materi43.004
+    3300042: parthenon
+    4300000: Mesh44_Materi43.004
+    4300002: parthenon
+    4300004: Mesh08_FrontCol.011
+    4300006: Group8_Materi01.019
+    4300008: Mesh13_Materi10.001
+    4300010: Group93_Materi14.002
+    4300012: Group109_Materi40.001
+    4300014: Group72_Materi01.008
+    4300016: Mesh37_Materi42.001
+    4300018: Mesh14_Materi12.001
+    4300020: Mesh37_Materi41.008
+    4300022: Mesh33_Materi30.002
+    4300024: islandbase
+    4300026: Mesh44_Materi43.001
+    4300028: Group156_Stone_Sa
+    4300030: Group157_Stone_Ma.003
+    4300032: Mesh43_Materi07.001
+    4300034: Group41_Materi13
+    4300036: Group94_Material
+    4300038: Group101_Materi05
+    4300040: Mesh17__Charcoa
+    4300042: Mesh31_Materi36
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 755f5ea54e6494e45a6ea9061fb29e2d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.015
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 0
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

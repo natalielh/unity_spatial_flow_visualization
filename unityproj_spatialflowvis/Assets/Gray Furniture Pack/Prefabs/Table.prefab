@@ -10,7 +10,6 @@ GameObject:
   - component: {fileID: 449564}
   - component: {fileID: 3350110}
   - component: {fileID: 2338432}
-  - component: {fileID: 65359807435734880}
   m_Layer: 0
   m_Name: Table
   m_TagString: Untagged
@@ -25,7 +24,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164614}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -2.699, y: 0.000023384093, z: -1.403}
+  m_LocalPosition: {x: -0.20099998, y: -0.4999766, z: 0.16199994}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,15 +83,3 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 164614}
   m_IsPrefabAsset: 1
---- !u!65 &65359807435734880
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 164614}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1.9391143, y: 0.7377414, z: 0.872606}
-  m_Center: {x: -0.00000014901164, y: 0.36884734, z: -0.038514458}
