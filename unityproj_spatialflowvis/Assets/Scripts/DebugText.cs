@@ -42,9 +42,9 @@ public class DebugText : MonoBehaviour
             float fps = 1.0f / deltaTime;
             screenText.text =
                 // \n puts 'enter' in the string
-                "Press F2 to Show / Hide this text \n" +
-                "[SpatialFlow VR Demo]  \n" +
-                "[Created by Natalie Le Huenen, natalie.lehuenen@gmail.com]  \n" +
+                "Press F2 to Show / Hide debug text \n" +
+                "[SpatialFlow Holographic Interface VR Demo]  \n" +
+                "Created by Natalie Le Huenen, natalie.lehuenen@gmail.com  \n" +
                 "Learn more: [github.com/natalielh/unity_spatial_flow_visualization]  \n" +
                 "\n" +
                 "Version: ["+ projVer +"] \n" +
@@ -56,9 +56,9 @@ public class DebugText : MonoBehaviour
                 "Server Address: [" + PhotonNetwork.ServerAddress + "] \n" +
                 "Connected & Ready?: [" + PhotonNetwork.IsConnectedAndReady + "] \n" +
                 "Is Master Client?: [" + PhotonNetwork.IsMasterClient + "] \n" +
-                "Players in Room: [" + PhotonNetwork.CurrentRoom.PlayerCount + "] \n" +
+                "Users in this Office: [" + PhotonNetwork.CurrentRoom.PlayerCount + "] \n" +
                 "\n" +
-                "[CONTROLS ARE AS FOLLOWS:] \n" +
+                "Debug controls: \n" +
                 "[Z] Show / Hide X-Plane \n" +
                 "[X] Show / Hide Y-Plane \n" +
                 "[C] Show / Hide Z-Plane \n" +
