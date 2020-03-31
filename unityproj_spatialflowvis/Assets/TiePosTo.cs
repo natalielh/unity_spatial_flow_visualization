@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TiePosTo : MonoBehaviour {
 
+    public bool enabled = true;
+
     public GameObject ObjToStickTo;
     public Vector3 offset = new Vector3();
 
@@ -17,8 +19,11 @@ public class TiePosTo : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        this.transform.position = ObjToStickTo.transform.position + offset;
-        if (stickRotation){this.transform.rotation = ObjToStickTo.transform.rotation; }
+        if (enabled) {
+            this.transform.position = ObjToStickTo.transform.position + offset;
+            if (stickRotation) { this.transform.rotation = ObjToStickTo.transform.rotation; }
+        }
+
 
 
     }

@@ -15,6 +15,7 @@ TagManager:
   - Butterfly
   - DomeCollider
   - NNum
+  - SnapNNum
   layers:
   - Default
   - TransparentFX
