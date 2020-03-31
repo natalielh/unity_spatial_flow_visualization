@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class NInt : MonoBehaviour {
+
+    public UnityEvent theEvent;
 
 	// Use this for initialization
 	void Start () {
@@ -13,4 +16,9 @@ public class NInt : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void aFunction() {
+        theEvent.Invoke();
+    }
+
 }
