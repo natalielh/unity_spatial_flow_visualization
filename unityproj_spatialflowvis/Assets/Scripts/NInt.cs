@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class NInt : MonoBehaviour {
 
     public UnityEvent theEvent;
+    public UnityEvent onConnectionAttempt;
 
 	// Use this for initialization
 	void Start () {
