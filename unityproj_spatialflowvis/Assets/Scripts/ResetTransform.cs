@@ -4,13 +4,27 @@ using UnityEngine;
 
 public class ResetTransform : MonoBehaviour {
 
+    public Transform customPosTransform;
+    public bool useCustomPos = false;
+
     public void ResetWorldTransform() {
-        transform.position = Vector3.zero;
+
+        if (useCustomPos) { transform.position = customPosTransform.position; }
+        else {transform.position = Vector3.zero;}
+
 
     }
 
     public void ResetLocalTransform() {
-        transform.localPosition = Vector3.zero;
+
+        if (useCustomPos) { transform.localPosition = customPosTransform.position; }
+        else { transform.localPosition = Vector3.zero; }
+
+    }
+
+    public void SetParentToNull() {
+
+        transform.SetParent(null);
 
     }
 
