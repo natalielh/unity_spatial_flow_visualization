@@ -42,7 +42,10 @@ public class DebugText : MonoBehaviour
             float fps = 1.0f / deltaTime;
             screenText.text =
                 // \n puts 'enter' in the string
-                "Press F2 to Show / Hide debug text \n" +
+                "Press F1 to Show / Hide VRSimulator controls \n" +
+                "Press F2 to Show / Hide debug & console \n" +
+                //"Press F3 to Show / Hide Console \n" +
+                "\n" +
                 "[SpatialFlow Holographic Interface VR Demo]  \n" +
                 "Created by Natalie Le Huenen, natalie.lehuenen@gmail.com  \n" +
                 "Learn more: [github.com/natalielh/unity_spatial_flow_visualization]  \n" +

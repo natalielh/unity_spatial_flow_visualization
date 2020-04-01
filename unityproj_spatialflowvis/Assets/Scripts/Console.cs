@@ -59,7 +59,7 @@ namespace Consolation
         static readonly GUIContent clearLabel = new GUIContent("Clear", "Clear the contents of the console.");
         static readonly GUIContent collapseLabel = new GUIContent("Collapse", "Hide repeated messages.");
         const int margin = 20;
-        const string windowTitle = "Console";
+        const string windowTitle = "Console (Toggle with F2)";
 
         static readonly Dictionary<LogType, Color> logTypeColors = new Dictionary<LogType, Color>
         {
@@ -111,8 +111,10 @@ namespace Consolation
             GUI.matrix = Matrix4x4.Scale(Vector3.one * scaleFactor);
 
             float width = (Screen.width / scaleFactor) - (margin * 2);
-            float height = (Screen.height / scaleFactor) - (margin * 2);
-            Rect windowRect = new Rect(windowX, windowY, width, height);
+            //float height = (Screen.height / scaleFactor) - (margin * 2);
+            float height = 300;
+            //Rect windowRect = new Rect(windowX, windowY, width, height);
+            Rect windowRect = new Rect(windowX, Screen.height - margin - 300, width, height);
 
             Rect newWindowRect = GUILayout.Window(123456, windowRect, DrawWindow, windowTitle);
             windowX = newWindowRect.x;
