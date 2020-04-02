@@ -77,7 +77,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _GlowSpeed: 2
-    - _GlowTiling: 0.05
+    - _GlowTiling: 1
     - _HoloDistance: 0.5
     - _HoloValue: 1
     - _Metallic: 0

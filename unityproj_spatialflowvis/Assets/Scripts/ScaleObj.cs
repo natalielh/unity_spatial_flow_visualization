@@ -5,13 +5,10 @@ using VRTK.Controllables.ArtificialBased;
 
 public class ScaleObj : MonoBehaviour {
 
-    public VRTK_ArtificialSlider slider = new VRTK_ArtificialSlider();
+    //public VRTK_ArtificialSlider slider = new VRTK_ArtificialSlider();
+    public VRTK_ArtificialSlider slider;
     Vector3 toScale = new Vector3();
 
-    // Use this for initialization
-    void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {

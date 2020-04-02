@@ -17,7 +17,7 @@ public class DrawLineTo : MonoBehaviour
     {
         lineRenderer = GetComponent<LineRenderer>();
         lineRenderer.useWorldSpace = true;
-        lineRenderer.widthMultiplier = 0.05f;
+        lineRenderer.widthMultiplier = 0.02f;
     }
 
     // Update is called once per frame
