@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class NInt : MonoBehaviour {
+public class NNumber : MonoBehaviour {
 
     public UnityEvent theEvent;
     public UnityEvent onConnectionAttempt;
