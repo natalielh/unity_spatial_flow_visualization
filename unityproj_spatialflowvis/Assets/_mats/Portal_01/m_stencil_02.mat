@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: m_stencil_02
-  m_Shader: {fileID: 4800000, guid: 85a8c7b0f3845fc4fa7cbdf41c6b138d, type: 3}
+  m_Shader: {fileID: 4800000, guid: 797ee553737eda34d9e887d2710a48c8, type: 3}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: 3200
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -77,5 +77,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.55602527, g: 0.65612984, b: 0.8018868, a: 1}
+    - _Color: {r: 0.4862745, g: 0.83588976, b: 0.94509804, a: 0.34117648}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
