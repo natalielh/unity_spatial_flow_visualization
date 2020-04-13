@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 65372455791409902}
   - component: {fileID: 114610990002922366}
   - component: {fileID: 114101010059887212}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SnapDropZone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 4684465415854572}
   - component: {fileID: 33159903856442514}
   - component: {fileID: 23099095795088622}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PointAlwaysShowing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4283697793360642}
   - component: {fileID: 114896956015359616}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: '# SnapDropZoneHolder #'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4575739970528102}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: HighlightContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 33684199994482064}
   - component: {fileID: 23434746202121824}
   - component: {fileID: 114275053095036990}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: EditorHighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 4634304289765416}
   - component: {fileID: 33327261263506942}
   - component: {fileID: 23754865513139176}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: HighlightObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
