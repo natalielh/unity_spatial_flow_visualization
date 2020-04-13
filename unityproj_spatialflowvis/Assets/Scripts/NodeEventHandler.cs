@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class NodeManager : MonoBehaviour {
+public class NodeEventHandler : MonoBehaviour {
 
-    public UnityEvent a;
+    public delegate void NodeAction();
+    public static event NodeAction OnInteract;
 
+    public List<GameObject> inputPointGameObjects;
+    //public List<GameObject> outputPointGameObjects;
+    public GameObject outputPointGameObject;
 
 
 	// Use this for initialization
@@ -18,4 +22,13 @@ public class NodeManager : MonoBehaviour {
 	void Update () {
 		
 	}
+
+    private void Function() {
+        OnInteract.Invoke();
+    }
+
+    public void PerformOperation() {
+
+    }
+
 }

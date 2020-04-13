@@ -60,6 +60,8 @@ public class DebugText : MonoBehaviour
                 "Connected & Ready?: [" + PhotonNetwork.IsConnectedAndReady + "] \n" +
                 "Is Master Client?: [" + PhotonNetwork.IsMasterClient + "] \n" +
                 "Users in this Office: [" + PhotonNetwork.CurrentRoom.PlayerCount + "] \n" +
+                //"Users in this Office: [" + PhotonNetwork.CountOfPlayersInRooms + "] \n" +
+                //"Users in this Office: [" + PhotonNetwork.PlayerList + "] \n" +
                 "\n" +
                 "Debug controls: \n" +
                 "[Z] Show / Hide X-Plane \n" +
