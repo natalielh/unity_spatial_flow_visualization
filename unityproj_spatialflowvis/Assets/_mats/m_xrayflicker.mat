@@ -5,7 +5,8 @@ Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: m_xrayflicker
   m_Shader: {fileID: 4800000, guid: 5aa8d07405e8a6048aa902f4c4085e80, type: 3}
   m_ShaderKeywords: 
@@ -84,7 +85,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 7
+    - _RimPower: 10
     - _ScanSpeed: 0.3
     - _ScanTiling: 500
     - _SmoothnessTextureChannel: 0
