@@ -4,7 +4,8 @@
 Preset:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: settings_import
   m_TargetType:
     m_NativeTypeID: 1041
@@ -12,68 +13,12 @@ Preset:
     m_ManagedTypeFallback: 
   m_Properties:
   - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.size
-    value: 6
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[0].first
-    value: 100000
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[0].second
-    value: //RootNode
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[1].first
-    value: 400000
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[1].second
-    value: //RootNode
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[2].first
-    value: 2100000
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[2].second
-    value: No Name
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[3].first
-    value: 2300000
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[3].second
-    value: //RootNode
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[4].first
-    value: 3300000
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[4].second
-    value: //RootNode
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[5].first
-    value: 4300000
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_FileIDToRecycleName.Array.data[5].second
-    value: Icosphere
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: m_ExternalObjects.Array.size
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_ImportMaterials
     value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_SupportsEmbeddedMaterials
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_MaterialName
@@ -86,22 +31,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_MaterialLocation
     value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Materials.Array.size
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Materials.Array.data[0].type
-    value: UnityEngine:Material
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Materials.Array.data[0].assembly
-    value: UnityEngine.CoreModule
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_Materials.Array.data[0].name
-    value: No Name
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_LegacyGenerateAnimations
@@ -208,6 +137,10 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
+    propertyPath: m_UseSRGBMaterialColor
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
     propertyPath: m_ImportVisibility
     value: 0
     objectReference: {fileID: 0}
@@ -276,10 +209,6 @@ Preset:
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_FileScale
-    value: 1
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
     propertyPath: m_PreviousCalculatedGlobalScale
     value: 1
     objectReference: {fileID: 0}
@@ -304,27 +233,15 @@ Preset:
     value: 4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_ImportedTakeInfos.Array.size
+    propertyPath: legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_ReferencedClips.Array.size
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_ImportedRoots.Array.size
+    propertyPath: blendShapeNormalImportMode
     value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
-    propertyPath: m_ImportedRoots.Array.data[0]
-    value: 
-    objectReference: {fileID: 100000, guid: d45b39020007c466bbb0671bb3398dee, type: 3}
-  - target: {fileID: 0}
-    propertyPath: m_HasExtraRoot
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_HasEmbeddedTextures
+    propertyPath: normalSmoothingSource
     value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
@@ -374,22 +291,6 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_HumanDescription.m_RootMotionBoneName
     value: 
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_HumanDescription.m_RootMotionBoneRotation.x
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_HumanDescription.m_RootMotionBoneRotation.y
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_HumanDescription.m_RootMotionBoneRotation.z
-    value: 0
-    objectReference: {fileID: 0}
-  - target: {fileID: 0}
-    propertyPath: m_HumanDescription.m_RootMotionBoneRotation.w
-    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_HumanDescription.m_HasTranslationDoF
