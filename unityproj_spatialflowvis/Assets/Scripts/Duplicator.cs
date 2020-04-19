@@ -7,6 +7,7 @@ public class Duplicator : MonoBehaviour {
     public bool dupeItself = true;
     public bool alwaysDupe = false;
     public bool reparent = true;
+    public bool keepLocalRotation = true;
 
     bool dupedYet = false;
 
@@ -38,6 +39,10 @@ public class Duplicator : MonoBehaviour {
             // set parent
             if (reparent && (newParent != null)) {
                 clone.transform.SetParent(newParent);
+            }
+
+            if (keepLocalRotation) {
+                clone.transform.localRotation = Quaternion.identity;
             }
 
             // set the flag to TRUE to prevent THIS from being duped again and again and again
