@@ -48,7 +48,7 @@ public class DebugText : MonoBehaviour
                 "\n" +
                 "[SpatialFlow Holographic Interface VR Demo]  \n" +
                 "Created by Natalie Le Huenen, natalie.lehuenen@gmail.com  \n" +
-                "Learn more: [github.com/natalielh/unity_spatial_flow_visualization]  \n" +
+                "Learn more: [natalielehuenen.com/spatialflow]  \n" +
                 "\n" +
                 "Version: ["+ projVer +"] \n" +
                 "App running on: [" + Application.platform + "] \n" +
